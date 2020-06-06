@@ -1,0 +1,141 @@
+
+/* 
+Navbar
+*/
+.navbar{
+    background-color: #b0bec5 !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: bold;
+}
+.nav-item :hover{
+    font-size: 22px;
+    color: chartreuse !important;}
+.navbar-brand img{
+    height: 60px;
+}
+.fa-shopping-cart, .fa-user-circle-o {
+    font-size: 30px !important;
+    color: #fff;
+    margin:0 0 0  20px;
+}
+
+/* 
+Slider
+*/
+
+
+/* main Card */
+.fa-truck, .fa-headphones, .fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right: 20px;
+    color: red;
+}
+
+h3{
+    color: red;
+}
+.card1, .card2, .card3{
+    display: flex;
+    width: 350px;
+    height: 100px;
+    background: #fff;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.main-card{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* Ner Arrival */
+.new-arrival{
+    margin-top: 50px;
+    
+}
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.heading >h2{
+    text-shadow: 2px 3px 4px seagreen;
+}
+.card{
+    width: 250px;
+    height: auto !important;
+    margin-bottom: 10px;
+}
+.card-text{
+    font-weight: bold !important;
+}
+.btn-primary{
+    background-color: red !important;
+    width: 100%;
+
+}
+.footer{
+    height: 60px;
+    background-color: red;
+    text-align: center;
+
+    padding: 20px;
+
+}
+
+.main-footer{
+    height: 400px;
+    margin-top: 50px;
+    padding-top: 30px;
+    background-color:cyan;
+}
+.logo{
+    height: 70px;
+}
+
+
+/* about */
+.about{
+    margin-top: 100px ;
+}
+
+.about h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+.contact{
+    margin-top: 100px ;
+}
+
+.contact h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+@media screen and(max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+
+    .main-footer {
+      
+        height: 400px;
+        }
+}
